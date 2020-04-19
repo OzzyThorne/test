@@ -220,7 +220,7 @@ class MainActivity : AppCompatActivity() {
 
     fun loadShell() {
         shellPageLoadState = ShellPageLoadState.LOADING
-        webView.loadUrl("https://${shellPageHost}/en.wikipedia.org/v1/page/${shellPagePath}")
+        webView.loadUrl("https://en.wikipedia.org/wiki/Main_Page")
     }
 
 }
